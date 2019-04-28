@@ -23,10 +23,10 @@ Simple slackbot built with Node.js and Slackbots.js that tells random Chuck Norr
 
  # Create bot in Slack and generate and include your OAuth bot token
 ```
-#### App Info
+### App Info
 #### Author
 #### Emily Lu
 
-#### Version
+### Version
 #### 1.0.0
 
