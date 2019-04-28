@@ -27,6 +27,6 @@ Simple slackbot built with Node.js and Slackbots.js that tells random Chuck Norr
 #### Author
 #### Emily Lu
 
-### Version
+#### Version
 #### 1.0.0
 
