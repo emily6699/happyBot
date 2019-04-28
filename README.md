@@ -14,13 +14,14 @@ Simple slackbot built with Node.js and Slackbots.js that tells random Chuck Norr
 #### https://github.com/mishk0/slack-bot-api
 
 ### Quick Start
-#### Install dependencies
-#### npm install
+ Install dependencies
+ npm install
 
-#### Serve on localhost:3000
-#### npm start
+ Serve on localhost:3000
+ npm start
 
-#### Create bot in Slack and generate and include your OAuth bot token
+ Create bot in Slack and generate and include your OAuth bot token
+ 
 #### App Info
 #### Author
 #### Emily Lu
