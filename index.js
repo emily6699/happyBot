@@ -39,6 +39,9 @@ const handleMessage = (message) => {
         randomJoke();
     } else if (message.includes(' cat')) {
         catPic();
+    }
+    else if (message.includes(' dog')) {
+        dogPic();
     } else if (message.includes(' help')) {
         runHelp();
     }
@@ -87,6 +90,18 @@ const catPic = () => {
         })
 }
 
+const dogPic = () => {
+    axios.get('https://random.dog/woof.json')
+        .then(res => {
+            const dogPicture = res.data.url;
+
+            const params = {
+                icon_emoji: ':dog:'
+            }
+            bot.postMessageToChannel('general', dogPicture, params)
+        })
+}
+
 
 
 //Tell a random joke
@@ -106,7 +121,7 @@ const runHelp = () => {
         icon_emoji: ':question:'
     }
 
-    bot.postMessageToChannel('general', `Type @happyBot with either 'tell me a joke', 'yomama', or 'random' to get a joke, or with 'cat' to get a cat picture`,
+    bot.postMessageToChannel('general', `Type @happyBot with either 'tell me a joke', 'yomama', or 'random' to get a joke. Type with 'cat' or 'dog' to get a cat or dog picture`,
         params
     );
 }
