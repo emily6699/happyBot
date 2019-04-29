@@ -12,5 +12,8 @@
     "axios": "^0.18.0",
     "nodemon": "^1.18.11",
     "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
   }
 }

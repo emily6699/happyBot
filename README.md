@@ -1,7 +1,7 @@
 ## @happyBot
 
 
-Simple slackbot built with Node.js and Slackbots.js that tells random Chuck Norris and Yo Mama jokes, and sends cat pictures.
+Simple slackbot built with Node.js and Slackbots.js that tells random Chuck Norris and Yo Mama jokes, and sends cat and dog pictures.
 
 ### APIs Used:
 #### http://www.icndb.com/api/
@@ -9,6 +9,8 @@ Simple slackbot built with Node.js and Slackbots.js that tells random Chuck Norr
 #### http://yomomma.info/
 
 #### https://aws.random.cat/meow
+
+#### https://random.dog/woof.json
 
 ### Slackbots (slack-bot-api)
 #### https://github.com/mishk0/slack-bot-api
