@@ -3,7 +3,7 @@ const axios = require('axios');
 
 require('dotenv').config()
 const TOKEN = process.env.TOKEN;
-console.log(process.env.TOKEN)
+
 
 const bot = new Slackbot({
     token: TOKEN,
